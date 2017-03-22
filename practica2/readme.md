@@ -1,6 +1,6 @@
-#Práctica 2. Clonar la información de un sitio web
+# Práctica 2. Clonar la información de un sitio web
 
-###Crear un tar con ficheros locales en un equipo remoto
+### Crear un tar con ficheros locales en un equipo remoto
 
 Para crear el paquete usamos el siguiente comando
  
@@ -13,7 +13,7 @@ Y una vez hecho, podemos ver el resultado:
 
 ![Captura del resultado de la creación](./images/tar-resultado.PNG "Realización de la copia")
 
-###Sincronizar máquinas con rsync
+### Sincronizar máquinas con rsync
 Para realizar la sincronización, vamos a utilizar los ficheros que tenemos en nuestro espacio web, por tanto haremos un rsync con el siguiente comando
 
 ```bash
@@ -22,7 +22,7 @@ rsync -avz -e ssh 10.0.2.4:/var/www/ /var/www/
 
 ![Captura de la sincronización](./images/rsync.PNG "Creación de la sincronización")
 
-###Acceso sin contraseña para ssh
+### Acceso sin contraseña para ssh
 Ahora crearemos un par de claves ssh pública/privada, para ello usamos el comando
 ```bash
 ssh-keygen -b 4096 -t rsa 
