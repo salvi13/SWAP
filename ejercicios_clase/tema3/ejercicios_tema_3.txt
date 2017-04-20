@@ -1,0 +1,9 @@
+Ejercicio 1
+Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el enrutamiento del tráfico de un servidor para pasar el tráfico desde una subred a otra.
+
+Se puede usar la orden route tanto en linux como en windows (donde se recomienda usar powershell como terminal).
+
+Ejercicio 2
+Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el filtrado y bloqueo de paquetes.
+
+En windows se puede utilizar el propio firewall, mientras que en linux se puede hacer con reglas iptables.
