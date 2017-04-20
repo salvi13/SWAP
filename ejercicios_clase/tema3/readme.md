@@ -1,4 +1,5 @@
 #Ejercicios Tema 3
+
 **Ejercicio 1
 Buscar con qué órdenes de terminal o herramientas gráficas
 podemos configurar bajo Windows y bajo Linux el
