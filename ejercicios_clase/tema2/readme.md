@@ -3,8 +3,8 @@
 
 **Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento (en total 3 elementos en cada subsistema).**
 
-	Elemento	| Disponibilidad 1 	| Disponibilidad 2 
- ---------------| ------------------| ----------------
+|	Elemento	| Disponibilidad 1 	| Disponibilidad 2 |
+|---------------| ------------------| ----------------|
  Web        	| 85% 	      		| 97.75% 
  Application	| 90% 	      		| 99% 
  Database     	| 99.9% 	      	| 99.9999% 
