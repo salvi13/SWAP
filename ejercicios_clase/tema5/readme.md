@@ -41,9 +41,15 @@ Hacemos una petición http desde el cliente al servidor y vemos como wireshark m
 Por ejemplo:
 
 - **top**:
+
 ![orden-top](./images/top.PNG "orden-netstat")
+
 - **vmstat**:
+
+
 ![orden-vmstat](./images/vmstat.PNG "orden-netstat")
 - **netstat** (Utilizando la orden que hemos usado anteriormente):
- ![orden-netstat](./images/netstat.PNG "orden-netstat")
+
+
+![orden-netstat](./images/netstat.PNG "orden-netstat")
 
