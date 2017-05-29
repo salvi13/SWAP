@@ -67,6 +67,7 @@ De manera que el fichero en el maestro debe quedar tal y como se ve en la siguie
 
 
 Y en el esclavo debe quedar:
+
 ![Captura del fichero mysql.cnf](./images/mysql-conf-bind-address.PNG "Modificación fichero mysql.cnf")
 ![Captura del fichero mysql.cnf](./images/mysql-conf-server-id-2.PNG "Modificación fichero mysql.cnf")
 
@@ -90,6 +91,8 @@ Y se observa su estado, si se ve que el **second_behind_master** es distinto de 
 
 Ahora se procede a comprobar si efectivamente replica los datos:
 ![Captura del estado del esclavo](./images/insertar-dato-maestro.PNG "Estado del esclavo")
+
+
 ![Captura del estado del esclavo](./images/ver-dato-replicado.PNG "Estado del esclavo")
 
 ### Replicación de BD mediante una configuración maestro-maestro
