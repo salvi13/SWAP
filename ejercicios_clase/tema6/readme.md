@@ -35,7 +35,7 @@ sudo netstat -tulpn
 ```
 
 Tal y como se ve en la siguiente imagen:
-![Captura del netstat](./images/netstat.PNG "Orden netstat")
+![Captura del netstat](./images/net-stat.PNG "Orden netstat")
 
 
 
