@@ -22,7 +22,7 @@ Otra opción sería utilizar netstat, para ello lanzamos la siguiente orden:
 netstat | grep http | wc -l
 ```
 Con esto nos devolverá exactamente las conexiones que hay, si quitamos el **wc -l** veríamos cuales son las conexiones exactas, como se ve en la siguiente imagen:
-![orden-netstat](./images/netstat.PNG "orden-netstat")
+![orden-netstat](./images/net-stat.PNG "orden-netstat")
 
 
 ### Ejercicio 2
@@ -51,5 +51,5 @@ Por ejemplo:
 - **netstat** (Utilizando la orden que hemos usado anteriormente):
 
 
-![orden-netstat](./images/netstat.PNG "orden-netstat")
+![orden-netstat](./images/net-stat.PNG "orden-netstat")
 
